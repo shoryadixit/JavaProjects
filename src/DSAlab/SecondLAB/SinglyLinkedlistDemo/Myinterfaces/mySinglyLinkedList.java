@@ -22,4 +22,7 @@ public interface mySinglyLinkedList {
     int removeGivenNode(int givenElement);
 
     boolean search(int element);
+
+    int first();
+    int last();
 }
